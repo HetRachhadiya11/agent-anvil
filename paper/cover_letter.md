@@ -19,7 +19,7 @@ five passing end-to-end smoke scenarios, security and contribution guidance,
 and an adapter for provider-backed function-calling model runs. The complete
 versioned source is available at:
 
-https://github.com/HetRachhadiya11/agent-anvil/releases/tag/v0.2.0
+https://github.com/HetRachhadiya11/agent-anvil/tree/03cae537e93c317048f2afccd70d6fe73253869e
 
 The paper reports only executed software verification. It does not reuse the
 earlier synthetic 100%-versus-30% fixture gap as evidence about real agents, and

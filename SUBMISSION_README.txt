@@ -16,16 +16,16 @@ UPLOAD FILES
 4. Cover letter: copy the text from Cover_Letter.txt into the portal or upload it.
 5. Software/research artifact if requested: Agent_Anvil_v0.2.0_Source.zip
 
-PUBLIC SOFTWARE RELEASE — REQUIRED BEFORE SUBMISSION
-The manuscript uses this release address:
-https://github.com/HetRachhadiya11/agent-anvil/releases/tag/v0.2.0
+PUBLIC SOFTWARE RELEASE — VERIFIED
+Repository:
+https://github.com/HetRachhadiya11/agent-anvil
 
-The connected GitHub app did not expose a selected repository workspace, so it
-could not create or publish the repository from this session. The connected
-account is “HetRachhadiya11”. Before submitting, create a PUBLIC empty repository
-named “agent-anvil”, give the GitHub app access to it, upload the extracted
-contents of Agent_Anvil_v0.2.0_Source.zip, and create the v0.2.0 release/tag.
-Open both URLs in a private browser window and confirm that they work.
+Permanent version 0.2.0 source snapshot used by the manuscript:
+https://github.com/HetRachhadiya11/agent-anvil/tree/03cae537e93c317048f2afccd70d6fe73253869e
+
+The repository is public, and the implementation, schemas, scenarios, tests,
+documentation, license, manuscript source, and continuous-integration workflow
+were verified at the permanent snapshot above.
 
 AUTHOR DECLARATIONS — CONFIRM PERSONALLY BEFORE CLICKING SUBMIT
 - Sole-author name, affiliation, email, ORCID, and CRediT roles are accurate.
