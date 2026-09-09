@@ -1,0 +1,5 @@
+# Exact direct dependencies used for the 9 September 2026 verification run.
+# Transitive dependencies remain constrained by pyproject.toml and the wheel metadata.
+pydantic==2.13.4
+PyYAML==6.0.3
+openai==2.54.0

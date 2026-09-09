@@ -1,0 +1,5 @@
+- Agent Anvil turns agent policies into deterministic CI regression tests.
+- Versioned traces capture observable model, tool, result, response, and state.
+- Paired response, state, trace, and hybrid views expose evaluator disagreement.
+- Stateful local tools and 100 balanced scenarios support reproducible studies.
+- Redaction, paired statistics, and human-validation workflows are built in.

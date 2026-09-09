@@ -1,0 +1,52 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agent-anvil"
+version = "0.2.0"
+description = "Trace-centric regression testing for tool-using agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "Het Rachhadiya", email = "het315957@gmail.com" }
+]
+keywords = ["agents", "evaluation", "regression-testing", "tool-use", "tracing"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: Testing",
+]
+dependencies = [
+  "pydantic>=2.7,<3",
+  "PyYAML>=6.0,<7",
+]
+
+[project.optional-dependencies]
+openai = ["openai>=2.0,<3"]
+dev = ["build>=1.2", "coverage>=7.6", "ruff>=0.9"]
+
+[project.scripts]
+agent-anvil = "agent_anvil.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/HetRachhadiya11/agent-anvil"
+Repository = "https://github.com/HetRachhadiya11/agent-anvil"
+Documentation = "https://github.com/HetRachhadiya11/agent-anvil#readme"
+Issues = "https://github.com/HetRachhadiya11/agent-anvil/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["agent_anvil"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]

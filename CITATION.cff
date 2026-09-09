@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use Agent Anvil, please cite the software and accompanying paper."
+title: "Agent Anvil: Reproducible Trace Assertions and CI Regression Tests for Tool-Using Agents"
+type: software
+version: 0.2.0
+date-released: 2026-09-09
+authors:
+  - family-names: Rachhadiya
+    given-names: Het
+    orcid: "https://orcid.org/0009-0008-9577-2906"
+license: Apache-2.0
+repository-code: "https://github.com/HetRachhadiya11/agent-anvil"
