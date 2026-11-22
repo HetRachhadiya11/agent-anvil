@@ -1,36 +1,30 @@
-# SoftwareX submission status
+# Research and manuscript status
 
-## Completed and verified
+## Software artifact
 
-- Rebuilt Agent Anvil as an installable Apache-2.0 Python package.
-- Implemented versioned trace and scenario schemas, stateful local tools,
-  deterministic assertions, paired evaluator views, and CI-friendly reports.
-- Added redaction, restrictive artifact permissions, an OpenAI Responses API
-  adapter, exact paired statistics, clustered bootstrap, and annotation metrics.
-- Generated and schema-validated 100 scenarios, balanced across five domains.
-- Passed 14/14 automated tests with 81% combined statement/branch coverage and
-  5/5 end-to-end smoke scenarios.
-- Reframed the paper as an original software publication and removed the
-  constructed 100%-versus-30% result from the evidence.
-- Prepared the SoftwareX manuscript, highlights, cover letter, source archive,
-  release checklist, license, citation file, documentation, and CI workflow.
+Agent Anvil 0.2.0 is an installable Apache-2.0 Python research package. Its
+implemented features include versioned scenarios and traces, a local stateful
+tool environment, deterministic assertions, paired evaluation views,
+CI-friendly reports and an optional OpenAI Responses API adapter.
 
-## Scope of the submitted evidence
+The [verification record](VERIFICATION.md) reports 14 passing tests, 81%
+combined statement/branch coverage, five passing smoke scenarios and validation
+of 100 benchmark scenarios.
 
-The article reports software verification, not model-performance research. The
-optional provider-backed study and dual-annotation protocol are supplied for
-future work. No model output, human label, or statistic has been fabricated.
+## Manuscript materials
 
-## Author and portal confirmations
+The repository contains manuscript materials prepared for **SoftwareX,
+Original Software Publication**, including the source, cover letter and
+highlights. The presence of these files does not establish submission,
+acceptance or journal publication.
 
-Before clicking Submit, the corresponding author must personally verify the
-author list and CRediT roles; confirm the funding and competing-interest
-statements; confirm that the manuscript is not under consideration elsewhere;
-approve the AI-assistance disclosure; and accept the journal's open-access
-charge or obtain a waiver. These declarations cannot ethically be made by a
-third party.
+The current manuscript reports software verification. An earlier constructed
+demonstration was superseded by the version 0.2.0 verification approach; see
+the [changelog](CHANGELOG.md) for the software history.
 
-## Target
+## Further evaluation
 
-The package is prepared for **SoftwareX, Original Software Publication**. No
-legitimate journal can guarantee acceptance or publication by a visa deadline.
+Provider-backed model trials and independent human annotation are defined in
+[RESEARCH_PROTOCOL.md](RESEARCH_PROTOCOL.md). They are separate from the
+completed functional tests. Model rankings, real-world failure incidence and
+production effectiveness are not established by the current verification.
