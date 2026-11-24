@@ -33,7 +33,7 @@ repository does not distribute Shubh Lam's application source.
 
 ## Curo Group: business intelligence and data quality
 
-**Role:** Business Intelligence & Data Insights Analyst, 2025–present.
+**Role:** Data Insight Analyst, 2025–present.
 
 My work connects operational questions to SQL logic, Power BI models and
 reports that stakeholders can examine and use. It spans governance, HR and
