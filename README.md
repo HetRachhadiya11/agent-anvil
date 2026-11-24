@@ -16,6 +16,7 @@ Built and maintained by **[Het Rachhadiya](docs/MAINTAINER.md)**.
 [ORCID research record](https://orcid.org/0009-0008-9577-2906)
 
 [Quick start](#quick-start) · [Architecture](docs/ARCHITECTURE.md) ·
+[Runnable demonstration](docs/DEMO.md) ·
 [Verification](VERIFICATION.md) · [Research protocol](RESEARCH_PROTOCOL.md) ·
 [Contributing](CONTRIBUTING.md)
 
@@ -57,6 +58,12 @@ On Windows PowerShell, activate the environment with
 The smoke suite contains **five deterministic scenarios**. A successful run
 exits with code `0` and writes `artifacts/smoke/report.md`. With `--ci-gate`,
 any failed hybrid evaluation makes the command exit with code `1`.
+Empty scenario sets and invalid run counts are rejected. Use positive values
+for `--repetitions`, `--limit` and `--max-steps`; `--max-retries` may be zero.
+
+For a small valid-versus-invalid trace comparison, run
+`python examples/compare_refund.py`. See the [demonstration guide](docs/DEMO.md)
+for expected output and an explanation of each check.
 
 | Output | Purpose |
 | --- | --- |
@@ -101,12 +108,16 @@ The [GitHub Actions workflow](.github/workflows/test.yml) runs on Python 3.10,
 with an **80% minimum coverage gate**, executes smoke scenarios and builds the
 Python package.
 
-The [version 0.2.0 verification record](VERIFICATION.md) documents:
+The [version 0.2.1 verification record](VERIFICATION.md), dated 24 November 2026, documents:
 
-- **14 passing automated tests** and **81% combined statement/branch coverage**;
+- **18 passing automated tests** and **80% package-only statement/branch coverage**;
 - **5 passing smoke scenarios**;
 - schema validation of **100 benchmark scenarios across five suites**;
 - successful wheel and source-distribution builds.
+
+Version 0.2.1 fixes a false-success case where zero repetitions could make a CI
+run pass without executing scenarios. The historical 0.2.0 verification remains
+documented separately.
 
 To run the development checks locally, follow [CONTRIBUTING.md](CONTRIBUTING.md).
 

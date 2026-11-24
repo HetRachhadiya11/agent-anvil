@@ -17,6 +17,20 @@ from .reporting import write_artifacts
 from .runner import run_scenario
 
 
+def _positive_int(value: str) -> int:
+    number = int(value)
+    if number < 1:
+        raise argparse.ArgumentTypeError("must be an integer greater than zero")
+    return number
+
+
+def _nonnegative_int(value: str) -> int:
+    number = int(value)
+    if number < 0:
+        raise argparse.ArgumentTypeError("must be an integer greater than or equal to zero")
+    return number
+
+
 def _build_agent(args: argparse.Namespace):
     if args.agent == "scripted":
         return ScriptedAgent()
@@ -122,11 +136,11 @@ def build_parser() -> argparse.ArgumentParser:
         help="optional OpenAI model used to judge only the final response",
     )
     run_parser.add_argument("--output", required=True)
-    run_parser.add_argument("--repetitions", type=int, default=1)
-    run_parser.add_argument("--max-steps", type=int, default=12)
-    run_parser.add_argument("--max-retries", type=int, default=2)
+    run_parser.add_argument("--repetitions", type=_positive_int, default=1)
+    run_parser.add_argument("--max-steps", type=_positive_int, default=12)
+    run_parser.add_argument("--max-retries", type=_nonnegative_int, default=2)
     run_parser.add_argument("--temperature", type=float)
-    run_parser.add_argument("--limit", type=int)
+    run_parser.add_argument("--limit", type=_positive_int)
     run_parser.add_argument("--ci-gate", action="store_true")
     run_parser.set_defaults(handler=command_run)
     return parser

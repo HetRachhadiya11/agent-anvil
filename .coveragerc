@@ -1,0 +1,7 @@
+[run]
+branch = True
+source = agent_anvil
+
+[report]
+fail_under = 80
+show_missing = True

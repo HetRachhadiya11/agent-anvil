@@ -17,6 +17,8 @@ def load_scenarios(path: str | Path) -> list[Scenario]:
         raw = raw["scenarios"]
     if not isinstance(raw, list):
         raise ValueError("scenario file must contain a list or a top-level 'scenarios' list")
+    if not raw:
+        raise ValueError("scenario file must contain at least one scenario")
     scenarios = [Scenario.model_validate(item) for item in raw]
     identifiers = [scenario.id for scenario in scenarios]
     if len(identifiers) != len(set(identifiers)):

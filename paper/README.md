@@ -1,6 +1,11 @@
 # Manuscript source
 
-This directory contains the SoftwareX manuscript source. It uses Elsevier's
+This directory contains manuscript materials prepared for SoftwareX, describing
+Agent Anvil **0.2.0**. Submission or acceptance is not established by these files;
+see [research status](../SUBMISSION_STATUS.md). The current software verification
+is in [VERIFICATION.md](../VERIFICATION.md).
+
+The manuscript uses Elsevier's
 `elsarticle` class (version 3.5, 9 January 2026) and a numeric reference list.
 
 Build from this directory with:

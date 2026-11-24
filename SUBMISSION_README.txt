@@ -1,50 +1,41 @@
-AGENT ANVIL — SOFTWAREX SUBMISSION INSTRUCTIONS
-Version 0.2.0 | Prepared 9 September 2026
+AGENT ANVIL — MANUSCRIPT ARTIFACT GUIDE
 
-TARGET
-Journal: SoftwareX
-Article type: Original Software Publication
-Guide for authors:
-https://www.sciencedirect.com/journal/softwarex/publish/guide-for-authors
-Submission portal:
-https://www.editorialmanager.com/softx/default2.aspx
+The paper/ directory contains materials prepared for a SoftwareX original
+software article describing version 0.2.0. These files do not establish that
+the manuscript was submitted, accepted or published.
 
-UPLOAD FILES
-1. Manuscript: Agent_Anvil_SoftwareX_Manuscript.pdf
-2. Editable source: Agent_Anvil_SoftwareX_LaTeX_Source.zip
-3. Highlights: Highlights.txt
-4. Cover letter: copy the text from Cover_Letter.txt into the portal or upload it.
-5. Software/research artifact if requested: Agent_Anvil_v0.2.0_Source.zip
-
-PUBLIC SOFTWARE RELEASE — VERIFIED
-Repository:
+PUBLIC SOFTWARE
 https://github.com/HetRachhadiya11/agent-anvil
 
-Permanent version 0.2.0 source snapshot used by the manuscript:
+Version 0.2.0 source snapshot used by the manuscript:
 https://github.com/HetRachhadiya11/agent-anvil/tree/03cae537e93c317048f2afccd70d6fe73253869e
 
-The repository is public, and the implementation, schemas, scenarios, tests,
-documentation, license, manuscript source, and continuous-integration workflow
-were verified at the permanent snapshot above.
+Current software version: 0.2.1. See CHANGELOG.md and VERIFICATION.md for the
+maintenance changes and the separately dated verification results.
 
-AUTHOR DECLARATIONS — CONFIRM PERSONALLY BEFORE CLICKING SUBMIT
-- Sole-author name, affiliation, email, ORCID, and CRediT roles are accurate.
-- There is no specific research funding, or replace the funding statement.
-- There is no competing interest, or replace the declaration.
-- The manuscript is not being considered by another journal or conference.
-- The generative-AI disclosure accurately describes the assistance used.
-- The author accepts the journal's current open-access terms and charge, or has
-  confirmed an institutional agreement or waiver.
+ARTIFACTS IN THIS REPOSITORY
+- paper/softwarex_submission.pdf: version 0.2.0 manuscript
+- paper/softwarex_submission.tex: editable manuscript source
+- paper/highlights.txt: manuscript highlights
+- paper/cover_letter.md: draft submission cover letter
+- paper/reviewer_response_map.md: methodological revision history
+- CITATION.cff: citation metadata for the current software version
+- RESEARCH_PROTOCOL.md: protocol for future provider-backed evaluation
 
-IMPORTANT
-- Do not submit the rejected ICTAI PDF with the 100%-versus-30% headline.
-- Do not claim that real LLM experiments or human annotations were completed.
-- No journal can guarantee acceptance or publication by a visa deadline.
-- If any declaration or the GitHub username is wrong, edit the LaTeX source and
-  cover letter, rebuild the PDF, and regenerate the release before submission.
+BUILD THE MANUSCRIPT
+From paper/, run:
+latexmk -pdf -interaction=nonstopmode -halt-on-error softwarex_submission.tex
 
-VERIFICATION
-The supplied release passed 14 automated tests, 81% combined statement/branch
-coverage, validation of 100 unique balanced scenarios, five end-to-end smoke
-scenarios, linting, package builds, and an external wheel-install check. Hashes
-are listed in SHA256SUMS.txt.
+REPRODUCE THE SOFTWARE
+Follow README.md for installation and CONTRIBUTING.md for validation.
+The default scripted checks use synthetic local fixtures and need no API key.
+Model-backed experiments are optional and are not established by those checks.
+
+HISTORICAL CHECKSUMS
+SHA256SUMS.txt records the September 2026 version 0.2.0 artifacts. The wheel
+and source archive named there are not bundled with a normal Git checkout.
+Those hashes are historical, not hashes of the current 0.2.1 build.
+
+RESEARCH STATUS
+See SUBMISSION_STATUS.md for the distinction between the software, manuscript
+materials, and the further evaluation required for empirical model claims.

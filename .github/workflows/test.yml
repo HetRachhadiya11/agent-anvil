@@ -3,6 +3,10 @@ name: tests
 on:
   push:
   pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   test:
@@ -16,10 +20,12 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - run: python -m pip install -e '.[dev]'
-      - run: python -m ruff check agent_anvil scripts tests
+      - run: python -m ruff check agent_anvil scripts tests examples
       - run: python scripts/build_benchmark.py
       - run: python scripts/export_schemas.py
+      - run: python -m agent_anvil.cli validate scenarios/benchmark_v1.yaml
       - run: python -m coverage run --branch -m unittest discover -s tests -v
       - run: python -m coverage report --fail-under=80
       - run: python -m agent_anvil.cli run --scenarios scenarios/smoke.yaml --agent scripted --output artifacts/ci --ci-gate
+      - run: python examples/compare_refund.py
       - run: python -m build

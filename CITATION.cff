@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "If you use Agent Anvil, please cite the software and accompanying paper."
+message: "If you use Agent Anvil, please cite this software version. Manuscript status is documented in SUBMISSION_STATUS.md."
 title: "Agent Anvil: Reproducible Trace Assertions and CI Regression Tests for Tool-Using Agents"
 type: software
-version: 0.2.0
-date-released: 2026-09-09
+version: 0.2.1
+date-released: 2026-11-24
 authors:
   - family-names: Rachhadiya
     given-names: Het

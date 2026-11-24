@@ -1,3 +1,5 @@
+# Historical version 0.2.0 artifact hashes, September 2026.
+# See SUBMISSION_README.txt. These are not version 0.2.1 build hashes.
 e7588ecabdc97e2315a545fb06f6dc1990b443843799f6bb7ad4e3ccad97e4d0  dist/agent_anvil-0.2.0-py3-none-any.whl
 6b315a92a64cf020770e1e26ecf627a6b70b70b3f09ef3db13c2dbc2fd08c9c5  dist/agent_anvil-0.2.0.tar.gz
 03f79f489ddd8b33c80a83c3a1b85d4f3bc3fdfa59db9f1f4eebb15f43eff1b2  paper/softwarex_submission.pdf

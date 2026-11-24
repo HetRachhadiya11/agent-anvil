@@ -21,13 +21,14 @@ On Windows PowerShell, use `.\.venv\Scripts\Activate.ps1` to activate it.
 The following commands mirror the repository's CI checks:
 
 ```bash
-python -m ruff check agent_anvil scripts tests
+python -m ruff check agent_anvil scripts tests examples
 python scripts/build_benchmark.py
 python scripts/export_schemas.py
 python -m agent_anvil.cli validate scenarios/benchmark_v1.yaml
 python -m coverage run --branch -m unittest discover -s tests -v
 python -m coverage report --fail-under=80
 python -m agent_anvil.cli run --scenarios scenarios/smoke.yaml --agent scripted --output artifacts/ci --ci-gate
+python examples/compare_refund.py
 python -m build
 ```
 
@@ -51,6 +52,10 @@ See [RESEARCH_PROTOCOL.md](RESEARCH_PROTOCOL.md) for study and annotation rules.
 Keep each change focused. Describe the problem, resulting behaviour and checks
 run. Link an existing issue when relevant. For visible documentation changes,
 check GitHub's Markdown preview as well as the source text.
+
+AI-assisted contributions are welcome when the contributor checks the output,
+describes the change accurately and supplies reproducible validation. Do not
+invent measurements, testimonials or execution results.
 
 ## Sensitive data
 

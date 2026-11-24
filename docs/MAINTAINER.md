@@ -4,6 +4,9 @@
 
 Bristol, United Kingdom
 
+[Research and publications](RESEARCH.md) · [Applied case studies](CASE_STUDIES.md) ·
+[Runnable software example](DEMO.md) · [ORCID](https://orcid.org/0009-0008-9577-2906)
+
 I work with SQL, Python and Power BI to turn operational data into reporting
 that people can check and use. My work combines business intelligence at Curo
 Group, independent research into cloud data architecture and AI reliability,
@@ -14,9 +17,9 @@ and application development for Shubh Lam.
 | Work | My contribution | Explore |
 | --- | --- | --- |
 | Agent Anvil | Python regression-testing framework for tool-using agents, with versioned traces, deterministic assertions and automated CI checks | [Code and quick start](../README.md) · [Verification](../VERIFICATION.md) |
-| Shubhlam website and staff portal | Voluntary development of a B2B catalogue and staff workflows for visit records, follow-ups, location capture and controlled access | [Public website](https://shubhlam.com) |
+| Shubhlam website and staff portal | Voluntary development of a B2B catalogue and staff workflows for visit records, follow-ups, location capture and controlled access | [Case study](CASE_STUDIES.md#shubh-lam-b2b-catalogue-and-staff-workflows) · [Public website](https://shubhlam.com/) |
 | Cloud data architecture research | AWS/Azure analytics designs covering ingestion, transformations, medallion layers, metadata, lineage and CI/CD | [Research overview](#research) |
-| Business intelligence at Curo Group | SQL workflow logic, data-quality checks, API investigation and reporting for governance, HR and operations | Professional delivery; internal systems and datasets are not published here |
+| Business intelligence at Curo Group | SQL workflow logic, data-quality checks, API investigation and reporting for governance, HR and operations | [Contribution overview](CASE_STUDIES.md#curo-group-business-intelligence-and-data-quality); internal systems and datasets remain private |
 
 ## Technical focus
 
@@ -43,6 +46,10 @@ generation and traceable analytics.
   connecting source contracts, metric definitions, analytical evidence and
   decision records.
 
+Published work covers RAG state drift, enterprise knowledge retrieval,
+research integrity and federated healthcare analytics. See the
+[publication index with publisher and DOI links](RESEARCH.md#published-research).
+
 Research identity: [ORCID 0009-0008-9577-2906](https://orcid.org/0009-0008-9577-2906).
 
 ## Education and service
@@ -50,7 +57,8 @@ Research identity: [ORCID 0009-0008-9577-2906](https://orcid.org/0009-0008-9577-
 - MSc Management (Business Analytics), Swansea University — Distinction.
 - BTech Computer Science and Engineering, Dr. M.G.R. Educational and Research Institute.
 - BDAA 2026 International Program Committee member; peer-review contributions
-  to Arabian Journal for Science and Engineering, ICAISG and ICISET.
+  to Arabian Journal for Science and Engineering and ICAISG; external subreviews
+  for ICISET. [Roles and public references](RESEARCH.md#academic-service).
 
 ## Contact
 
