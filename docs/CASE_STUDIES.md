@@ -1,9 +1,12 @@
-# Applied work
+# Applied work in business intelligence and digital technology
 
 [Portfolio](MAINTAINER.md) · [Research](RESEARCH.md) · [ORCID](https://orcid.org/0009-0008-9577-2906)
 
-These summaries explain my contribution and the engineering decisions behind
-it. They contain no customer records, employee records or internal source code.
+These summaries connect my business intelligence and digital technology
+work to concrete contributions: SQL and Power BI reporting at Curo, and
+website and staff-portal development for Shubh Lam. They explain the
+engineering decisions without including customer records, employee records
+or internal source code.
 
 ## Shubh Lam: B2B catalogue and staff workflows
 

@@ -1,11 +1,15 @@
-# Research and academic service
+# AI, machine learning and digital technology research
 
 [Portfolio](MAINTAINER.md) · [ORCID](https://orcid.org/0009-0008-9577-2906) · [Software](../README.md)
 
-My research connects AI reliability, knowledge retrieval and traceable data
-systems. The links below identify publications and their scope. Software
-verification, conceptual research and empirical model evaluation are distinct
-forms of evidence.
+My research connects large language models (LLMs), retrieval-augmented
+generation (RAG), agentic and multi-agent systems, knowledge graphs,
+machine learning (including federated learning), AI reliability and cloud
+data architecture. Together with my [applied digital technology work](CASE_STUDIES.md),
+these records show how my interests connect to publications and software.
+
+The links below identify publications and their scope. Software verification,
+conceptual research and empirical model evaluation are distinct forms of evidence.
 
 ## Published research
 
