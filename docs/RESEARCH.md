@@ -18,7 +18,7 @@ to works listed on my ORCID record. Titles below are shortened for readability.
 | **Data-Driven AI Solutions for Enterprise Knowledge Retrieval** | International Journal of Artificial Intelligence and Agent Systems, 1(2), 2026 | [Publisher](https://journals.femington.com/ijaias/article/view/967) · [DOI: 10.67231/vyz4gh32](https://doi.org/10.67231/vyz4gh32). A proposed RAG and multi-agent framework for enterprise knowledge retrieval. |
 | **Information Security for Academic Research Integrity** | International Journal of Intelligent Systems and Data Science, 1(5), 2026 | [Publisher](https://journals.femington.com/ijisds/article/view/970) · [DOI: 10.67231/xctrh693](https://doi.org/10.67231/xctrh693). Research into blockchain-enabled integrity and privacy-preserving collaboration; the article describes a simulation-based evaluation. |
 | **Public Sector Analytics for Territorial Healthcare Planning** | International Journal of Clinical Research and Medical Sciences, 1(3), 2026 | [Publisher](https://journals.femington.com/ijcrms/article/view/969) · [DOI: 10.67231/a8hswk54](https://doi.org/10.67231/a8hswk54). A conceptual framework connecting federated analytics, healthcare planning and data governance. |
-| **Generation of Key Data Secure in Cloud Server (KEY D)** | Journal of Interdisciplinary Cycle Research, XV(IV), April 2023 | Co-authored undergraduate research on secure cloud storage and data deduplication. [Bibliographic record and contributors on ORCID](https://orcid.org/0009-0008-9577-2906). |
+| **Generation of Key Data Secure in Cloud Server (KEY D)** | Journal of Interdisciplinary Cycle Research, XV(IV), April 2023 | Co-authored undergraduate research on secure cloud storage and data deduplication, pp. 146–156. The paper documents provider/admin and user workflows with MySQL and NetBeans. Authors: Eswar Guptha, Het Rachhadiya (listed as HET), Naga Jitendra and Arun M. [Paper record](https://www.researchgate.net/publication/382000746_GENERATION_OF_KEY_DATA_SECURE_IN_CLOUD_SERVER_KEY_D) · [ORCID](https://orcid.org/0009-0008-9577-2906). |
 
 Publication records establish bibliographic provenance. Adoption, deployment
 scale and independent replication require their own evidence; no such metrics
@@ -43,15 +43,29 @@ acceptance for that manuscript.
 ## Work in progress
 
 - **Business Analytics with Power BI for Multi-Cloud Ecommerce Data Platform**:
-  cloud analytics architecture across AWS and Azure. Accepted for oral
+  cloud analytics architecture across AWS and Azure, including Bronze–Silver–Gold
+  medallion layers, Delta Lake or Postgres staging, dbt/Databricks SQL serving,
+  Power BI semantic models and OpenLineage/DataHub lineage. Accepted for oral
   presentation at Confluence 2027; presentation and proceedings publication
-  are pending.
+  are pending. This is a research contribution, without independently established
+  production adoption or commercial impact.
 - **From Data to Defensible Decisions**: reference-architecture research
   connecting source contracts, metric definitions, analytical evidence and
   decision records.
 
 These projects are research in progress. The public runnable implementation
 available here is Agent Anvil.
+
+## Research foundations
+
+**MSc dissertation — Swansea University, 2024:** *An Analysis of Leadership
+Techniques for Nurturing Virtual Team Productivity and Satisfaction in the
+Global Business Market.* A systematic review of secondary literature using
+keyword and Boolean searches to compare evidence on communication, trust,
+feedback and leadership in virtual teams. Completed for the MSc Management
+(Business Analytics), awarded with Distinction.
+
+[Academic background on LinkedIn](https://www.linkedin.com/in/het-rachhadiya/)
 
 ## Academic service
 
