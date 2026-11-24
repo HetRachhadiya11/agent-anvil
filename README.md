@@ -12,6 +12,9 @@ records observable events, and produces reports that can gate a CI build.
 
 Built and maintained by **[Het Rachhadiya](docs/MAINTAINER.md)**.
 
+[Explore my portfolio: analytics, Shubhlam and research](https://github.com/HetRachhadiya11) ·
+[ORCID research record](https://orcid.org/0009-0008-9577-2906)
+
 [Quick start](#quick-start) · [Architecture](docs/ARCHITECTURE.md) ·
 [Verification](VERIFICATION.md) · [Research protocol](RESEARCH_PROTOCOL.md) ·
 [Contributing](CONTRIBUTING.md)
