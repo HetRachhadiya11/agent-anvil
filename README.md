@@ -18,6 +18,7 @@ Built and maintained by **[Het Rachhadiya](docs/MAINTAINER.md)**.
 [Quick start](#quick-start) · [Architecture](docs/ARCHITECTURE.md) ·
 [Runnable demonstration](docs/DEMO.md) ·
 [Verification](VERIFICATION.md) · [Research protocol](RESEARCH_PROTOCOL.md) ·
+[Usage and evaluation](docs/USAGE.md) ·
 [Contributing](CONTRIBUTING.md)
 
 ## What it checks
@@ -157,6 +158,10 @@ does not request or store hidden chain-of-thought.
 
 Bug reports, test cases and documentation improvements are welcome. Read the
 [contribution guide](CONTRIBUTING.md) before proposing a change.
+
+If you try the software, share a [reproduction or usage report](https://github.com/HetRachhadiya11/agent-anvil/issues/new?template=usage_report.yml).
+Successful runs and failures are both useful. The [usage guide](docs/USAGE.md)
+explains how reproducibility, repeat use and measured outcomes are recorded.
 
 Trace artifacts can contain sensitive content. The package redacts common
 credential patterns and applies restrictive POSIX artifact permissions, but

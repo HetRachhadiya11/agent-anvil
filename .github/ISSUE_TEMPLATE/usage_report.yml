@@ -1,0 +1,65 @@
+name: Reproduction or usage report
+description: Share an installation, reproduction or integration result, including failures.
+title: "[Usage] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Record what you actually tried and observed. Partial and unsuccessful results are welcome.
+        This issue will be public: remove credentials, personal data and confidential traces.
+        Use synthetic examples or material you are authorised to share.
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Which Agent Anvil release or commit did you try?
+      placeholder: v0.2.1 or a full commit SHA
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include your operating system, Python version and installation method.
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope of use
+      options:
+        - Installation attempt
+        - One-off smoke test or demonstration
+        - Custom scenario or evaluation experiment
+        - Repeated use or workflow integration
+    validations:
+      required: true
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Relationship to the project
+      description: This helps readers interpret independence. You do not need to name an employer.
+      options:
+        - Independent user with no project affiliation
+        - Collaborator, colleague or adviser
+        - Maintainer or contributor
+        - Prefer not to disclose
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Steps and observed result
+      description: Include dates, commands, expected behaviour and what happened. Mention any maintainer assistance. For repeated use, describe the purpose and observation period.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence (optional)
+      description: Link a minimal synthetic example, sanitised output, public integration or reproducible report. Do not attach confidential or personal records.
+  - type: textarea
+    id: measurements
+    attributes:
+      label: Measurements (optional)
+      description: If claiming an improvement, give the metric definition, baseline and result, raw totals or sample sizes, observation period and limitations. Leave blank if you did not measure this.

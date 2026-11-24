@@ -57,6 +57,15 @@ AI-assisted contributions are welcome when the contributor checks the output,
 describes the change accurately and supplies reproducible validation. Do not
 invent measurements, testimonials or execution results.
 
+## Reproduction and usage reports
+
+You can contribute without changing code. Share a
+[reproduction or usage report](https://github.com/HetRachhadiya11/agent-anvil/issues/new?template=usage_report.yml)
+with the version, environment, steps and observed result. Include failures and
+state any collaboration or maintainer assistance. The
+[usage guide](docs/USAGE.md) explains the evidence needed for adoption and
+impact claims; no positive testimonial or measured improvement is required.
+
 ## Sensitive data
 
 Never include credentials, personal data or unredacted production traces in a
